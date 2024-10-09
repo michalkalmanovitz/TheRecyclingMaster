@@ -12,26 +12,29 @@ def draw_message(message, font_size, color, location):
 def handle_events():
     global run
     for event in pygame.event.get():
+        #quit game
         if event.type == pygame.QUIT:
             run = False
 
 
-level_chosen = False
+start_game = False
 run = True
 def menu():
-    global level_chosen, run
+    global start_game, run
     pygame.init()
     handle_events()
     while run:
         draw_message("Click Space to Continue", consts.FONT_SIZE, (255,255,255), consts.MSG_LOCATION)
-        while not level_chosen:
+        while not start_game:
             event = pygame.event.wait()
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
-                    level_chosen = True
+                    start_game = True
+        # pygame.display.update()
 
+    pygame.quit()
 
-
+# def main_game():
 
 
 # Press the green button in the gutter to run the script.
