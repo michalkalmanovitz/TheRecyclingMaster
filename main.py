@@ -1,6 +1,7 @@
 import pygame
 import consts
 
+
 screen = pygame.display.set_mode(
     (consts.WINDOW_WIDTH, consts.WINDOW_HEIGHT))
 
@@ -19,6 +20,8 @@ def handle_events():
 
 start_game = False
 run = True
+
+
 def menu():
     global start_game, run
     pygame.init()
@@ -30,14 +33,12 @@ def menu():
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
                     start_game = True
+
         # pygame.display.update()
 
     pygame.quit()
 
-# def main_game():
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    menu()
+def main_game():
+    if __name__ == '__main__':
+        menu()
     # main_game()
