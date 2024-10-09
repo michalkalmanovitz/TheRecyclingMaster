@@ -76,7 +76,7 @@ def create_new_bin():
 #     return bullet_bubble["color"]
 #
 # def should_stop(bubbles_grid, bullet_bubble):
-#     # TODO: implement
+#     #
 #     ceiling = 0
 #     if bullet_bubble["center_y"] <= ceiling:
 #         return True
