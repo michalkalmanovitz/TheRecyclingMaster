@@ -12,7 +12,7 @@ GREEN_BIN = "garbage_pics/green_bin.png"
 ORANGE_BIN = "garbage_pics/orange_bin.png"
 PURPLE_BIN = "garbage_pics/purple_bin.png"
 # needs to add bins images
-BIN_LS = [BLUE_BIN, BROWN_BIN, GREEN_BIN, ORANGE_BIN, PURPLE_BIN]
+BIN_IMAGES_LS = [BLUE_BIN, BROWN_BIN, GREEN_BIN, ORANGE_BIN, PURPLE_BIN]
 
 # adding objects to lists according categories
 BLUE_LS = []
@@ -22,3 +22,11 @@ PURPLE_LS = []
 GREEN_LS = []
 
 # adding background music
+
+
+
+
+
+
+
+
